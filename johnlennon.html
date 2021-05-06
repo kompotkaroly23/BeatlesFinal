@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>The Beatles - John Lennon</title>
+    <link rel="stylesheet" type="text/css" href="john.css" title="normalbetu"/>
+    <link rel="alternate stylesheet" type="text/css" href="nagybetus2.css" title="nagybetuk"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <script src="styleswitcher.js"></script>
+</head>
+
+<body id="background">
+    <nav class="kipo">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+    
+    <header class="menu">
+        <a href="paulmccartney.html">Paul McCartney</a>
+        <a href="ringostarr.html">Ringo Starr</a>
+        <a href="johnlennon.html" class="active">John Lennon</a>
+        <a href="georgeharrison.html">George Harrison</a>
+        <a href="index.html">Kezdőlap</a>
+        <a href="urlap.html">Kérdőív</a>
+        <a id="nagy" href="#" onclick="setActiveStyleSheet('nagybetuk'); return false;">Nagybetűs</a>
+        <a id="normal" href="#" onclick="setActiveStyleSheet('normalbetu'); return false;">Normál</a>
+    </header>
+    
+    <article id="tartalom">
+        <h1><span lang="en">John Lennon</span></h1>
+        <div class="szoveg">
+            <p>Mint a <span lang="en">Beatles</span> tagja, <strong>együttesvezetője</strong>, <span lang="en">Lennon</span> komoly hatással volt a <span lang="en">rock and roll</span>-ra és kibővítette a zenei irányzat határait az 1960-as években. Őt és szerzőtársát, <span lang="en">Paul McCartney</span>-t a 20. század legbefolyásosabb zenészei között tartják számon. Kettőjük közül <span lang="en">Lennon</span>t tekintik a jobb szövegírónak és <span lang="en">McCartney</span>-t a tehetségesebb zeneszerzőnek. Ugyan nagyon leegyszerűsített, de ezen megállapításban van némi igazság. Bár a legtöbb dalt <span lang="en">Lennon–McCartney</span>-ként jegyzik, de a <span lang="en">Lennon</span> által inspiráltak <strong>mélyértelműbb</strong>, önelemző és sokszor <strong>személyes</strong> dolgokkal foglalkozó <strong>darabok</strong>.</p><p> A legszürreálisabb dalai a <span lang="en">„Strawberry Fields Forever”</span> és az <span lang="en">„I am the Walrus”</span> szép példái különleges stílusának. Zeneszerzői kapcsolata <span lang="en">McCartney</span>-val többször késztette annak felületesebb, pozitív szemléletének az ellentételezésére, megmutatva az érem másik oldalát. Ez <span lang="en">„Getting Better”</span> című daluk szövegében is érezhető: <span lang="en">McCartney: „I have to admit it's getting better, it's getting better all the time.”</span> („Meg kell mondanom, ez egyre jobb.”)<span lang="en"> Lennon: „Couldn't get much worse!”</span> („Sokkal rosszabb már nem lehet!”)</p>
+        </div>
+        <div class="kep">
+            <a target="_blank" href="john.jpg"><img src="johnkicsi.jpg" alt="John Lennon arcképe"></a>
+        </div>
+    </article>
+
+     <article>
+        <div class="videoszoveg">
+            <h2>„Népszerűbbek vagyunk, mint Jézus”</h2>
+            <p>Gyakran nagyon <strong>szabadon fejezte ki magát</strong>, a sajtó pedig sok mindenről megkérdezte a véleményét. 1966. március 4-én a <span lang="en">London Evening Standard</span> újságírónőjének (egyik barátjának), <span lang="en">Maureen Cleave</span>-nek adott interjújában a következő kijelentést tette a vallással kapcsolatban: „A kereszténység el fog tűnni. Megszűnik, megsemmisül. Erről még csak vitatkozni sem vagyok hajlandó. Igazam van és be is fog igazolódni. Már most népszerűbbek vagyunk, mint Jézus. Nem tudom persze, melyik fog előbb letűnni a színről, a <span lang="en">rock ’n’ roll</span> vagy a kereszténység. Jézussal nincs is semmi baj, de a követői ostobák és közönségesek. Ők csavarják ki úgy a dolgokat, hogy az számomra tönkreteszi az egészet.”</p>
+        </div>
+        <div class="kep">
+            <video poster="imagine.jpg" width="600" controls autoplay>
+                <source src="imagine.mp4" type="video/mp4">
+            </video>
+            
+        </div>
+        <a id="dalszov" href="zeneszoveg.xhtml#imagine">Dalszöveg</a>
+    </article>
+</body>
+</html>

@@ -1,0 +1,238 @@
+#background{
+    background-color:rgba(240, 209, 64);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 1.2em;
+}
+a:visited{
+    background-color: yellowgreen;
+}
+.menu{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    background-color:rgb(238, 215, 111);
+}
+.menu a{
+    padding: 8px 16px;
+    font-size: 1.2em;
+}
+.menu a.active{
+    background-color: #f1ebd2;
+    color: black;
+}
+.menu a:hover{
+    background-color: rgb(218, 172, 47);
+}
+
+h1{
+    margin-left: 20px;
+}
+.szoveg{
+    float:right;
+    width: 800px;
+    margin-right: 300px;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.kep{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.kep img{
+    height: 400px;
+    width: 300px;
+}
+
+.videoszoveg{
+    margin-right: 100px;
+    float:right;
+    width: 600px;
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+#normal{
+    display: none;
+}
+.kipo{
+    display: none;
+}
+
+@media only screen and (max-width:1450px){
+    #background{
+        background-color:rgba(240, 209, 64);
+    }
+   
+    .menu{
+        float: none;
+        overflow: auto;
+        border-radius: 10px;
+        border: 1px solid black;
+        background-color:rgb(238, 215, 111);
+        width: 100%;
+    }
+    
+    .menu a.active{
+        background-color: #f1ebd2;
+        color: black;
+    }
+    .menu a:hover{
+        background-color: rgb(218, 172, 47);
+    }
+    .menu a{
+        padding: 0px;
+        float: left;
+        width: 16.66%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    h1{
+        margin-left: 20px;
+    }
+
+    .szoveg{
+        float:none;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 10px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    
+    .kep{
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .kep img{
+        height: 20%;
+        width: 40%;
+    }
+    
+    .videoszoveg{
+        float:none;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 10px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    #normal{
+        display: none;
+    }
+    .kipo{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px){
+    #background{
+        background-color:rgba(240, 209, 64);
+    }
+   
+    .menu{
+        float: none;
+        overflow: auto;
+        border-radius: 10px;
+        border: 1px solid black;
+        background-color:rgb(238, 215, 111);
+        width: 100%;
+    }
+    
+    .menu a.active{
+        background-color: #f1ebd2;
+        color: black;
+    }
+    .menu a:hover{
+        background-color: rgb(218, 172, 47);
+    }
+    .menu a{
+        padding: 5px;
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    h1{
+        margin-left: 20px;
+    }
+
+    .szoveg{
+        float:none;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 10px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    
+    .kep{
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .kep img{
+        height: 20%;
+        width: 40%;
+    }
+    .kep video{
+        text-align: center;
+        width: 80%;
+    }
+
+    .videoszoveg{
+        float:none;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 10px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    #normal {
+        display: none;
+    }
+    .kipo a {position:absolute; left:-9999px;}
+    .kipo a:focus {position:static; background:white}
+    
+}
+
+@media print{
+    body{
+        margin:0;
+        color: black;
+        background-color: rgb(240, 209, 64);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .szoveg{
+        float: none;
+        width: 90%;
+        margin-right: 0px;
+        margin-top: 10px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    .menu{
+        display: none;
+    }
+    a:after{content: "(" attr(href) ")";}
+
+    .footer{
+        display:none;
+    }
+    video{
+        display: none;
+    }
+}

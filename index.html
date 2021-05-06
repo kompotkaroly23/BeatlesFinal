@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <title>The Beatles - Főoldal</title>
+        <link rel="stylesheet" type="text/css" href="index.css" title="normalbetu"/>
+        <link rel="alternate stylesheet" type="text/css" href="nagybetus1.css" title="nagybetuk"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <script src="styleswitcher.js"></script>
+
+    </head>
+    <body id="background">
+        <nav class="kipo">
+            <a href="#tartalom">Ugrás a tartalomra</a>
+        </nav>
+        <header class="menu">
+            <a id="nagy" href="#" onclick="setActiveStyleSheet('nagybetuk'); return false;">Nagybetűs</a>
+            <a id="normal" href="#" onclick="setActiveStyleSheet('normalbetu'); return false;">Normál</a>
+        </header>
+        <h1>Kezdőlap</h1>
+        <main id="tartalom">
+            <div id="beatles">
+            <img src="beatles.png" alt="The Beatles">
+            </div>
+        <article class="tagok">
+            <h2>Tagok:</h2>
+            <table>
+                
+                <tr>
+                    <td><p><span lang="en">John Lennon</span></p></td>
+                    <td><p><span lang="en">Paul McCartney</span></p></td>
+                </tr>
+                <tr>
+                    <td><a href="johnlennon.html"><img src="littlejohn.jpg" alt="John Lennon fiatalon" class="kep"></a></td>
+                    <td><a href="paulmccartney.html"><img src="littlepaul.jpg" alt="Paul McCartney fiatalon" class="kep"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="ringostarr.html"><img src="littleringo.jpg" alt="Ringo Starr fiatalon" class="kep"></a></td>
+                    <td><a href="georgeharrison.html"><img src="littlegeorge.jpg" alt="George Harrison fiatalon" class="kep"></a></td>
+                </tr>
+                <tr>
+                        <td><p><span lang="en">Ringo Starr</span></p></td>
+                        <td><p><span lang="en">George Harrison</span></p></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><br /><i><b>Kattintson a képekre!</b></i></td>
+                </tr>
+            </table>
+        </article>
+
+            <article class="tablazat">
+                <h3>Kattintson a nyílra!</h3>
+                <section>
+                    <details>
+                        <summary><h4><span lang="en">Beatles</span> tagokról</h4></summary>
+                        <table>
+                            <caption>
+                            <p><span lang="en">Beatles</span> tagok születésük és haláluk</p>
+                            </caption>
+                            <tr>
+                                <th><i>Név</i></th>
+                                <th><i>Dátum</i></th>
+                            </tr>
+                            
+                            
+                            <tr>
+                                
+                                <td><p><span lang="en">John Lennon</span> </p></td>
+                                <td><p>1940. Október 9. - 1980 December 8.</p></td>
+                            </tr>
+                            <tr>
+                                <td><p><span lang="en">Paul McCartney</span></p></td>
+                                <td><p>1942. Június 18. -</p></td>
+                            </tr>
+                            <tr>
+                                <td><p><span lang="en">Ringo Starr</span></p></td>
+                                <td><p>1940. Július 7. -</p></td>
+                            </tr>
+                            <tr>
+                                <td><p><span lang="en">George Harrison</span></p></td>
+                                <td><p>1943.Február 25. - 2001. November 29.</p></td>
+                            </tr>
+                        </table>
+                    </details>
+                </section>
+            </article>
+
+            <footer class="footer">
+                <table style="overflow-x: auto;">
+                    <caption>Wikipedia oldalaik:</caption>
+                    <tr>
+                        <td><a href="https://hu.wikipedia.org/wiki/John_Lennon" target="_blank"><span lang="en">John Lennon</span></a></td>
+                        <td class="bord"></td>
+                        <td><a href="https://hu.wikipedia.org/wiki/Paul_McCartney" target="_blank"><span lang="en">Paul McCartney</span></a></td>
+                        <td class="bord"></td>
+                        <td><a href="https://hu.wikipedia.org/wiki/Ringo_Starr" target="_blank"><span lang="en">Ringo Starr</span></a></td>
+                        <td class="bord"></td>
+                        <td><a href="https://hu.wikipedia.org/wiki/George_Harrison" target="_blank"><span lang="en">George Harrison</span></a></td>
+                    </tr>
+                </table>
+            </footer>
+        </main>
+    </body>
+</html>

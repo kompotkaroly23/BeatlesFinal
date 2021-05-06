@@ -1,0 +1,253 @@
+#beatles {
+    text-align: center;
+}
+#beatles img{
+    width: 600px;
+}
+#background{
+    background-color:yellow;
+}
+.menu{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    background-color:lightgreen;
+}
+.menu a{
+    padding: 8px 16px;
+    font-size: 1.5em;
+}
+.menu a.active{
+    background-color: #f1ebd2;
+    color: black;
+}
+.menu a:hover{
+    background-color: red;
+}
+
+caption{
+    margin-top: 40px;
+}
+.tagok{
+    margin-left: 200px;
+    float: left;
+}
+.tagok p{
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tagok table{
+    text-align: center ;
+}
+
+table{
+    border-spacing:0px;
+}
+
+.kep {
+    width: 200px;
+    height: 200px;
+}
+.tablazat {
+    float: right;
+    margin-right:150px;
+    margin-top: 130px;
+    text-align: center;
+    border: 4px solid black;
+}
+.tablazat p{
+    font-size: 1.7em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+}
+.tablazat th{
+    border:2px solid black;
+}
+.tablazat tr td{
+    border: 2px solid black;
+    width: 325px;
+    height: 60px;
+}
+.detail{
+    text-align: center;
+}
+.footer table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 30px;
+    border-collapse: separate;
+}
+.footer a{
+    color:blue;
+}
+
+.footer a:visited{
+    color: red;
+}
+.bord{
+    border-right: 1px solid black;
+}
+#nagy{
+    display: none;
+}
+
+.kipo{
+    display: none;
+}
+@media only screen and (max-width:1450px){
+    #beatles {
+        text-align: center;
+    }
+    #background{
+        background-color:yellow;
+    } 
+    .tagok{
+        margin-left: auto;
+        margin-right: auto;
+        float:none;
+        
+    }
+    .tagok table{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tagok p{
+        font-size: 1.7em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .kep {
+        width: 300px;
+        height: 300px;
+    }
+
+    section{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tablazat {
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: 50px;
+        border: 0px solid black;
+    }
+    .tablazat p{
+        font-size: 1.7em;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-align: center;
+    }
+    .tablazat tr td{
+        border: 3px solid black;
+        width: 500px;
+        height: 40px;
+    }
+
+    .footer table{
+        margin-right: auto;
+        margin-left: auto;
+        border-spacing: 24px;
+        border-collapse: separate;
+    }
+    .footer a{
+        color:blue;
+    }
+    .footer a:visited{
+        color: red;
+    }
+    .bord{
+        border-right: 2px solid black;
+    }
+    #nagy{
+        display: none;
+    }
+    .kipo{
+        display: none;
+    }
+}
+@media only screen and (max-width:768px){
+    #beatles {
+        text-align: center;
+    }
+    #background{
+        background-color:yellow;
+    } 
+    .tagok{
+        margin-left: auto;
+        margin-right: auto;
+        float:none;
+        
+    }
+    .tagok table{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tagok p{
+        font-size: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .kep {
+        width: 150px;
+        height: 150px;
+    }
+
+    section{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tablazat {
+        margin-right: 25%;
+        margin-left: 25%;
+        margin-top: 30px;
+        border: 0px solid black;
+    }
+    .tablazat p{
+        font-size: 1em;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-align: center;
+    }
+    .tablazat tr td{
+        border: 1px solid black;
+        width: 162px;
+        height: 30px;
+    }
+
+    .footer table{
+        margin-right: auto;
+        margin-left: auto;
+        border-spacing: 5px;
+        border-collapse: separate;
+    }
+    .footer a{
+        color:blue;
+    }
+    .footer a:visited{
+        color: red;
+    }
+    .bord{
+        border-right: 1px solid black;
+    }
+    #nagy{
+        display: none;
+    }
+    .kipo a {position:absolute; left:-9999px;}
+    .kipo a:focus {position:static; background:white}
+    
+}
+
+@media print{
+    body{
+        margin:0;
+        color: black;
+        background-color: yellow;
+    }
+
+    .footer{
+        display:none;
+    }
+}

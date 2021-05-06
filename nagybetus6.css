@@ -1,0 +1,360 @@
+#background{
+    background-color: yellow;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 1.5em;
+}
+
+
+.menu{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    background-color:lightgreen;
+}
+
+.menu a{
+    padding: 8px 30px;
+    font-size: 1.5em;
+}
+
+.menu a.active{
+    background-color: #f1ebd2;
+    color: black;
+}
+
+.menu a:hover{
+    background-color: red;
+}
+.table1{
+    margin-left: 30px;
+}
+.radio{
+   
+    margin-left: 40px;
+    float: left;
+    clear: left;
+    font-size: 1.5em;
+}
+.table2{
+    margin-left: 30px;
+}
+h1{
+    margin-left: 20px;
+    float: left;
+    clear: left;
+}
+.checkbox{
+    float: left;
+    margin-left: 40px;
+    clear: left;
+    font-size: 1.5em;
+}
+.radio2 {
+    float: left;
+    margin-left: 575px;
+    font-size: 1.5em;
+}
+.text{
+    float: left;
+    margin-left: 500px;
+    font-size: 1.5em;
+}
+.kep{
+    width:600px;
+    height:250px;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+.reset{
+    clear: both;
+    float: left;
+    position: relative;
+    border: none;
+    color:  black;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color:rgb(218, 172, 47);
+    margin-right: 150px;
+    left: 75px;
+    bottom: 5px;
+    top: 20px;
+}
+
+.submit{
+    float: right;
+    position: relative;
+    border: none;
+    color:  black;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color:rgb(218, 172, 47);
+    right: 75px;
+    bottom: 5px;
+    top: 20px;
+}
+.kipo{
+    display: none;
+}
+#nagy{
+    display: none;
+}
+
+@media only screen and (max-width:1450px){
+    #background{
+        background-color:yellow; 
+    }
+    
+    .menu{
+        overflow: auto;
+        border-radius: 10px;
+        border: 1px solid black;
+        float: none;
+        background-color:lightgreen;
+        width: 100%;
+    }
+    .menu a{
+        padding: 0px;
+        float: left;
+        width: 14.2%;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .menu a.active{
+        background-color: #f1ebd2;
+        color: black;
+    }
+    .menu a:hover{
+        background-color: red;
+    }
+
+    .table1{
+        margin-left: 30px;
+    }
+
+    .radio{
+        margin-left: 40px;
+        float: left;
+        clear: left;
+        font-size: 1.3em;
+    }
+
+    .table2{
+        margin-left: 30px;
+    }
+    
+    h1{
+        margin-left: 20px;
+
+        float: left;
+        clear: left;
+    }
+    .checkbox{
+        float: left;
+        margin-left: 40px;
+        clear: left;
+        font-size: 1.3em;
+    }
+    .radio2 {
+        float: left;
+        margin-left: 25%;
+        font-size: 1.3em;
+        margin-right: 135px;
+    }
+    .text{
+        float: left;
+        margin-left: 15%;
+        margin-right: 10px;
+        font-size: 1.3em;
+    }
+    .kep{
+        width:60%;
+        height:10%;
+        margin-top: 10px;
+        margin-right: 20%;
+        margin-left: 20%;
+        float:none;
+        text-align: center;
+    }
+    
+    .reset{
+        float: left;
+        position: relative;
+        border: none;
+        color:  black;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color:rgb(218, 172, 47);
+        margin-right: 150px;
+        left: 75px;
+        bottom: 15px;
+        top: 5px;
+    }
+    .submit{
+        float: right;
+        position: relative;
+        border: none;
+        color:  black;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color:rgb(218, 172, 47);
+        right: 75px;
+        bottom: 15px;
+        top: 5px;
+    }
+    .kipo{
+        display: none;
+    }
+    #nagy{
+        display: none;
+    }
+}
+@media only screen and (max-width:768px){
+    #background{
+        background-color: yellow;
+    }
+    
+    .menu{
+        overflow: auto;
+        border-radius: 10px;
+        border: 1px solid black;
+        float: none;
+        background-color:lightgreen;
+        width: 100%;
+    }
+    .menu a{
+        padding: 5px;
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+    }
+    .menu a.active{
+        background-color: #f1ebd2;
+        color: black;
+    }
+    .menu a:hover{
+        background-color: red;
+    }
+
+    .table1{
+        margin-left: 30px;
+    }
+
+    .radio{
+        margin-left: 40px;
+        float: left;
+        clear: left;
+        font-size: 2em;
+    }
+
+    .table2{
+        margin-left: 30px;
+    }
+    
+    h1{
+        margin-left: 20px;
+        float: left;
+        clear: left;
+    }
+    .checkbox{
+        float: left;
+        margin-left: 40px;
+        clear: left;
+        font-size: 2em;
+    }
+    .radio2 {
+        float: left;
+        margin-left: 25%;
+        font-size: 2em;
+        margin-right: 135px;
+    }
+    .text{
+        float: left;
+        margin-left: 15%;
+        margin-right: 10px;
+        font-size: 2em;
+    }
+    .kep{
+        width:60%;
+        height:10%;
+        margin-top: 10px;
+        margin-right: 20%;
+        margin-left: 20%;
+        float:none;
+        text-align: center;
+    }
+    
+    .reset{
+        float: left;
+        position: relative;
+        border: none;
+        color:  black;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color:rgb(218, 172, 47);
+        margin-right: 150px;
+        left: 75px;
+        bottom: 15px;
+        top: 5px;
+    }
+    .submit{
+        float: right;
+        position: relative;
+        border: none;
+        color:  black;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color:rgb(218, 172, 47);
+        right: 75px;
+        bottom: 15px;
+        top: 5px;
+    }
+    .kipo{
+        display: none;
+    }
+    #nagy{
+        display: none;
+    }
+}
+@media print{
+    body{
+        margin:0;
+        color: black;
+        background-color: yellow;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .menu{
+        display: none;
+    }
+    a:after{content: "(" attr(href) ")";}
+}

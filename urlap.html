@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>The Beatles - Űrlap</title>
+    <link rel="stylesheet" type="text/css" href="urlap.css" title="normal">
+    <link rel="alternate stylesheet" type="text/css" href="nagybetus6.css" title="nagybetus">
+    <script src="styleswitcher.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body id="background">
+    <div class="color-overlay"></div>
+    <nav class="kipo">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+    <header class="menu">
+        <div>
+            <a href="paulmccartney.html">Paul McCartney</a>
+            <a href="ringostarr.html">Ringo Starr</a>
+            <a href="johnlennon.html">John Lennon</a>
+            <a href="georgeharrison.html">George Harrison</a>
+            <a href="index.html">Kezdőlap</a>
+            <a href="urlap.html"  class="active">Kérdőív</a>
+            <a id="nagy" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;">Nagybetűs</a>
+            <a id="normal" href="#" onclick="setActiveStyleSheet('normal'); return false;">Normál</a>
+        </div>
+    </header>
+
+    <h1>Űrlap</h1>
+    <form id="tartalom" method="POST" action="mailto:ratkaibazsa@gmail.com">
+        
+        <div class="radio">
+            <p>Melyik volt a kedvenc <span lang="en">Beatle</span>-je?</p>
+            <table class="table1">
+                <tr>
+                    <td>
+                        <input type="radio" name="kedvencbeatle" value="jn" id="v1">
+                        <label for="v1"><span lang="en">John Lennon</span></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="kedvencbeatle" value="jn" id="v2">
+                        <label for="v2"><span lang="en">Paul McCartney</span></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="kedvencbeatle" value="jn" id="v3">
+                        <label for="v3"><span lang="en">Ringo Starr</span></label>
+                    </td>
+                </tr>
+                <tr>
+                   <td>
+                        <input type="radio" name="kedvencbeatle" value="jn" id="v4">
+                        <label for="v4"><span lang="en">George Harrison</span></label>
+                   </td>
+                </tr>
+            </table>
+        </div>
+        <div class="radio2">
+            <p>Szereti a <span lang="en">Beatles</span>-t?</p>
+            <input type="radio" name="szereti" value="radio2" id="k1">
+            <label for="k1">Igen</label>
+            <input type="radio" name="szereti" value="radio2" id="k2">
+            <label for="k2">Nem</label>
+        </div>
+        <div class="text">
+        <aside>
+            <p>Mondja el hogy miért nyomott az igenre!</p>
+            <textarea name="Vélemény" rows="6" cols="53" maxlength="200"></textarea>
+        </aside>
+        <p>Kérjük adja meg a nevét!</p>
+        <input type="text" name="neve" maxlength="50" size="58">
+        </div>
+        
+        <div class="checkbox">
+            <p>Jelölje be kedvenc számait a alábbiak közül!</p>
+            <table class="table2">
+                <tr>
+                    <td>
+                        <input type="checkbox" name="kedvencszam" value="jn" id="b1">
+                        <label for="b1"><span lang="en">Let It Be</span></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="kedvencszam" value="jn" id="b2">
+                        <label for="b2"><span lang="en">Ob-La-Di, Ob-La-Da</span></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="kedvencszam" value="jn" id="b3">
+                        <label for="b3"><span lang="en">I Want to Hold Your Hand</span></label>
+                    </td>
+                </tr>
+                <tr>
+                   <td>
+                        <input type="checkbox" name="kedvencszam" value="jn" id="b4">
+                        <label for="b4"><span lang="en">Blackbird</span></label>
+                   </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="kedvencszam" value="jn" id="b5">
+                        <label for="b5"><span lang="en">Here Comes the Sun</span></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="kedvencszam" value="jn" id="b6">
+                        <label for="b6"><span lang="en">Hey Jude</span></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="kedvencszam" value="jn" id="b7">
+                        <label for="b7"><span lang="en">While My Guitar Gently Weeps</span></label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <figure>
+                <a href="beatlesfej.jpg" target="_blank"><img class="kep" src="beatlesfej.jpg" alt="Beatles tagok arcképe együtt"></a>
+                <figcaption>Beatles tagok arcképe együtt</figcaption>
+            </figure>
+        </div>
+
+        <div class="buttondiv1">
+            <button class="reset" type="reset">Törlés</button>
+        </div>
+
+        <div class="buttondiv2">
+            <button class="submit" type="submit">Elküldés</button>
+        </div>
+    </form>
+</body>
+</html>
